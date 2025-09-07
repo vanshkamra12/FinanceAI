@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4CEB6DC72E67238D00306B6B /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB6DC62E67238D00306B6B /* Intents.framework */; };
+		4CEB6DD22E67238D00306B6B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB6DD12E67238D00306B6B /* IntentsUI.framework */; };
+		4CEB6DDC2E67238D00306B6B /* FinanceAI IntentsUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CEB6DD02E67238D00306B6B /* FinanceAI IntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CEB6DDF2E67238D00306B6B /* FinanceAI Intents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CEB6DC42E67238D00306B6B /* FinanceAI Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CEB6DF12E688D8300306B6B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB6DF02E688D8300306B6B /* WidgetKit.framework */; };
+		4CEB6DF32E688D8300306B6B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEB6DF22E688D8300306B6B /* SwiftUI.framework */; };
+		4CEB6E042E688D8400306B6B /* FinanceAI WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4CEB6DEF2E688D8300306B6B /* FinanceAI WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4C71455C2E60CB6B004FFF0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +31,89 @@
 			remoteGlobalIDString = 4C7145482E60CB6A004FFF0F;
 			remoteInfo = FinanceAI;
 		};
+		4CEB6DDA2E67238D00306B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7145412E60CB6A004FFF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEB6DCF2E67238D00306B6B;
+			remoteInfo = "FinanceAI IntentsUI";
+		};
+		4CEB6DDD2E67238D00306B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7145412E60CB6A004FFF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEB6DC32E67238D00306B6B;
+			remoteInfo = "FinanceAI Intents";
+		};
+		4CEB6E022E688D8400306B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7145412E60CB6A004FFF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEB6DEE2E688D8300306B6B;
+			remoteInfo = "FinanceAI WidgetsExtension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4CEB6DE82E67238D00306B6B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CEB6DDF2E67238D00306B6B /* FinanceAI Intents.appex in Embed Foundation Extensions */,
+				4CEB6E042E688D8400306B6B /* FinanceAI WidgetsExtension.appex in Embed Foundation Extensions */,
+				4CEB6DDC2E67238D00306B6B /* FinanceAI IntentsUI.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C359F062E6AC76E00461FD0 /* FinanceAI WidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FinanceAI WidgetsExtension.entitlements"; sourceTree = "<group>"; };
 		4C7145492E60CB6A004FFF0F /* FinanceAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C71455B2E60CB6B004FFF0F /* FinanceAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7145652E60CB6B004FFF0F /* FinanceAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB6DC42E67238D00306B6B /* FinanceAI Intents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FinanceAI Intents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB6DC62E67238D00306B6B /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		4CEB6DD02E67238D00306B6B /* FinanceAI IntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FinanceAI IntentsUI.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB6DD12E67238D00306B6B /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		4CEB6DEF2E688D8300306B6B /* FinanceAI WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FinanceAI WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB6DF02E688D8300306B6B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4CEB6DF22E688D8300306B6B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C359F0C2E6B52F900461FD0 /* Exceptions for "FinanceAI Widgets" folder in "FinanceAI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SharedPersistentContainer.swift,
+			);
+			target = 4C7145482E60CB6A004FFF0F /* FinanceAI */;
+		};
+		4CEB6DE02E67238D00306B6B /* Exceptions for "FinanceAI Intents" folder in "FinanceAI Intents" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4CEB6DC32E67238D00306B6B /* FinanceAI Intents */;
+		};
+		4CEB6DE42E67238D00306B6B /* Exceptions for "FinanceAI IntentsUI" folder in "FinanceAI IntentsUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4CEB6DCF2E67238D00306B6B /* FinanceAI IntentsUI */;
+		};
+		4CEB6E052E688D8400306B6B /* Exceptions for "FinanceAI Widgets" folder in "FinanceAI WidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4CEB6DEE2E688D8300306B6B /* FinanceAI WidgetsExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4C71454B2E60CB6A004FFF0F /* FinanceAI */ = {
@@ -43,6 +129,31 @@
 		4C7145682E60CB6B004FFF0F /* FinanceAIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FinanceAIUITests;
+			sourceTree = "<group>";
+		};
+		4CEB6DC82E67238D00306B6B /* FinanceAI Intents */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4CEB6DE02E67238D00306B6B /* Exceptions for "FinanceAI Intents" folder in "FinanceAI Intents" target */,
+			);
+			path = "FinanceAI Intents";
+			sourceTree = "<group>";
+		};
+		4CEB6DD32E67238D00306B6B /* FinanceAI IntentsUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4CEB6DE42E67238D00306B6B /* Exceptions for "FinanceAI IntentsUI" folder in "FinanceAI IntentsUI" target */,
+			);
+			path = "FinanceAI IntentsUI";
+			sourceTree = "<group>";
+		};
+		4CEB6DF42E688D8300306B6B /* FinanceAI Widgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C359F0C2E6B52F900461FD0 /* Exceptions for "FinanceAI Widgets" folder in "FinanceAI" target */,
+				4CEB6E052E688D8400306B6B /* Exceptions for "FinanceAI Widgets" folder in "FinanceAI WidgetsExtension" target */,
+			);
+			path = "FinanceAI Widgets";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,15 +180,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CEB6DC12E67238D00306B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB6DC72E67238D00306B6B /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DCD2E67238D00306B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB6DD22E67238D00306B6B /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DEC2E688D8300306B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB6DF32E688D8300306B6B /* SwiftUI.framework in Frameworks */,
+				4CEB6DF12E688D8300306B6B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4C7145402E60CB6A004FFF0F = {
 			isa = PBXGroup;
 			children = (
+				4C359F062E6AC76E00461FD0 /* FinanceAI WidgetsExtension.entitlements */,
 				4C71454B2E60CB6A004FFF0F /* FinanceAI */,
 				4C71455E2E60CB6B004FFF0F /* FinanceAITests */,
 				4C7145682E60CB6B004FFF0F /* FinanceAIUITests */,
+				4CEB6DC82E67238D00306B6B /* FinanceAI Intents */,
+				4CEB6DD32E67238D00306B6B /* FinanceAI IntentsUI */,
+				4CEB6DF42E688D8300306B6B /* FinanceAI Widgets */,
+				4CEB6DC52E67238D00306B6B /* Frameworks */,
 				4C71454A2E60CB6A004FFF0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +229,22 @@
 				4C7145492E60CB6A004FFF0F /* FinanceAI.app */,
 				4C71455B2E60CB6B004FFF0F /* FinanceAITests.xctest */,
 				4C7145652E60CB6B004FFF0F /* FinanceAIUITests.xctest */,
+				4CEB6DC42E67238D00306B6B /* FinanceAI Intents.appex */,
+				4CEB6DD02E67238D00306B6B /* FinanceAI IntentsUI.appex */,
+				4CEB6DEF2E688D8300306B6B /* FinanceAI WidgetsExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4CEB6DC52E67238D00306B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB6DC62E67238D00306B6B /* Intents.framework */,
+				4CEB6DD12E67238D00306B6B /* IntentsUI.framework */,
+				4CEB6DF02E688D8300306B6B /* WidgetKit.framework */,
+				4CEB6DF22E688D8300306B6B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +257,14 @@
 				4C7145452E60CB6A004FFF0F /* Sources */,
 				4C7145462E60CB6A004FFF0F /* Frameworks */,
 				4C7145472E60CB6A004FFF0F /* Resources */,
+				4CEB6DE82E67238D00306B6B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CEB6DDB2E67238D00306B6B /* PBXTargetDependency */,
+				4CEB6DDE2E67238D00306B6B /* PBXTargetDependency */,
+				4CEB6E032E688D8400306B6B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				4C71454B2E60CB6A004FFF0F /* FinanceAI */,
@@ -163,6 +322,72 @@
 			productReference = 4C7145652E60CB6B004FFF0F /* FinanceAIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4CEB6DC32E67238D00306B6B /* FinanceAI Intents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEB6DE12E67238D00306B6B /* Build configuration list for PBXNativeTarget "FinanceAI Intents" */;
+			buildPhases = (
+				4CEB6DC02E67238D00306B6B /* Sources */,
+				4CEB6DC12E67238D00306B6B /* Frameworks */,
+				4CEB6DC22E67238D00306B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CEB6DC82E67238D00306B6B /* FinanceAI Intents */,
+			);
+			name = "FinanceAI Intents";
+			packageProductDependencies = (
+			);
+			productName = "FinanceAI Intents";
+			productReference = 4CEB6DC42E67238D00306B6B /* FinanceAI Intents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4CEB6DCF2E67238D00306B6B /* FinanceAI IntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEB6DE52E67238D00306B6B /* Build configuration list for PBXNativeTarget "FinanceAI IntentsUI" */;
+			buildPhases = (
+				4CEB6DCC2E67238D00306B6B /* Sources */,
+				4CEB6DCD2E67238D00306B6B /* Frameworks */,
+				4CEB6DCE2E67238D00306B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CEB6DD32E67238D00306B6B /* FinanceAI IntentsUI */,
+			);
+			name = "FinanceAI IntentsUI";
+			packageProductDependencies = (
+			);
+			productName = "FinanceAI IntentsUI";
+			productReference = 4CEB6DD02E67238D00306B6B /* FinanceAI IntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4CEB6DEE2E688D8300306B6B /* FinanceAI WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEB6E062E688D8400306B6B /* Build configuration list for PBXNativeTarget "FinanceAI WidgetsExtension" */;
+			buildPhases = (
+				4CEB6DEB2E688D8300306B6B /* Sources */,
+				4CEB6DEC2E688D8300306B6B /* Frameworks */,
+				4CEB6DED2E688D8300306B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CEB6DF42E688D8300306B6B /* FinanceAI Widgets */,
+			);
+			name = "FinanceAI WidgetsExtension";
+			packageProductDependencies = (
+			);
+			productName = "FinanceAI WidgetsExtension";
+			productReference = 4CEB6DEF2E688D8300306B6B /* FinanceAI WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +409,15 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 4C7145482E60CB6A004FFF0F;
 					};
+					4CEB6DC32E67238D00306B6B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4CEB6DCF2E67238D00306B6B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4CEB6DEE2E688D8300306B6B = {
+						CreatedOnToolsVersion = 16.4;
+					};
 				};
 			};
 			buildConfigurationList = 4C7145442E60CB6A004FFF0F /* Build configuration list for PBXProject "FinanceAI" */;
@@ -203,6 +437,9 @@
 				4C7145482E60CB6A004FFF0F /* FinanceAI */,
 				4C71455A2E60CB6B004FFF0F /* FinanceAITests */,
 				4C7145642E60CB6B004FFF0F /* FinanceAIUITests */,
+				4CEB6DC32E67238D00306B6B /* FinanceAI Intents */,
+				4CEB6DCF2E67238D00306B6B /* FinanceAI IntentsUI */,
+				4CEB6DEE2E688D8300306B6B /* FinanceAI WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +460,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4C7145632E60CB6B004FFF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DC22E67238D00306B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DCE2E67238D00306B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DED2E688D8300306B6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +511,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CEB6DC02E67238D00306B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DCC2E67238D00306B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEB6DEB2E688D8300306B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +544,21 @@
 			isa = PBXTargetDependency;
 			target = 4C7145482E60CB6A004FFF0F /* FinanceAI */;
 			targetProxy = 4C7145662E60CB6B004FFF0F /* PBXContainerItemProxy */;
+		};
+		4CEB6DDB2E67238D00306B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEB6DCF2E67238D00306B6B /* FinanceAI IntentsUI */;
+			targetProxy = 4CEB6DDA2E67238D00306B6B /* PBXContainerItemProxy */;
+		};
+		4CEB6DDE2E67238D00306B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEB6DC32E67238D00306B6B /* FinanceAI Intents */;
+			targetProxy = 4CEB6DDD2E67238D00306B6B /* PBXContainerItemProxy */;
+		};
+		4CEB6E032E688D8400306B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEB6DEE2E688D8300306B6B /* FinanceAI WidgetsExtension */;
+			targetProxy = 4CEB6E022E688D8400306B6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +689,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinanceAI/FinanceAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5Z67U9JS9;
@@ -405,6 +700,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,6 +719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinanceAI/FinanceAIRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5Z67U9JS9;
@@ -433,6 +730,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,6 +816,162 @@
 			};
 			name = Release;
 		};
+		4CEB6DE22E67238D00306B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI Intents/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI Intents";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-Intents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CEB6DE32E67238D00306B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI Intents/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI Intents";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-Intents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CEB6DE62E67238D00306B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI IntentsUI/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI IntentsUI";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-IntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CEB6DE72E67238D00306B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI IntentsUI/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI IntentsUI";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-IntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CEB6E072E688D8400306B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "FinanceAI WidgetsExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CEB6E082E688D8400306B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "FinanceAI WidgetsExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5Z67U9JS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinanceAI Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinanceAI Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vanshkamra.financeai.FinanceAI.FinanceAI-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +1007,33 @@
 			buildConfigurations = (
 				4C7145762E60CB6B004FFF0F /* Debug */,
 				4C7145772E60CB6B004FFF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEB6DE12E67238D00306B6B /* Build configuration list for PBXNativeTarget "FinanceAI Intents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEB6DE22E67238D00306B6B /* Debug */,
+				4CEB6DE32E67238D00306B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEB6DE52E67238D00306B6B /* Build configuration list for PBXNativeTarget "FinanceAI IntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEB6DE62E67238D00306B6B /* Debug */,
+				4CEB6DE72E67238D00306B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEB6E062E688D8400306B6B /* Build configuration list for PBXNativeTarget "FinanceAI WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEB6E072E688D8400306B6B /* Debug */,
+				4CEB6E082E688D8400306B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

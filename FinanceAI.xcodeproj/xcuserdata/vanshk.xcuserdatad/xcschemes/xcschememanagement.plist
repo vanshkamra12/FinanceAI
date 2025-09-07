@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FinanceAI.xcscheme_^#shared#^_</key>
+		<key>FinanceAI Intents.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FinanceAI IntentsUI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>FinanceAI WidgetsExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>FinanceAI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C7145482E60CB6A004FFF0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CEB6DC32E67238D00306B6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CEB6DCF2E67238D00306B6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CEB6DEE2E688D8300306B6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
