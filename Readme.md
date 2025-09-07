@@ -27,7 +27,8 @@ A comprehensive personal finance management app built with SwiftUI and Core Data
 
 ## 📱 Screenshots
 
-*Add screenshots here showing different views of your app*
+<img width="319" height="726" alt="Screenshot 2025-09-07 at 9 58 25 PM" src="https://github.com/user-attachments/assets/7c33ea9f-f372-44a9-8715-30f63bf7e8c1" />
+
 
 ## 🛠 Tech Stack
 
@@ -126,3 +127,4 @@ If you have any questions or run into issues, please open an issue on GitHub or 
 ---
 
 ⭐️ If you found this project helpful, please give it a star!
+
